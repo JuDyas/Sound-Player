@@ -22,7 +22,7 @@ type SoundPlayer struct {
 
 func NewSoundPlayer() *SoundPlayer {
 	return &SoundPlayer{
-		filePath: "assets/rain.wav",
+		filePath: "assets/silent.wav",
 		stopChan: make(chan bool),
 	}
 }

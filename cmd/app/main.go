@@ -8,6 +8,7 @@ import (
 func main() {
 	playerSound := player.NewSoundPlayer()
 	tray := systray.NewAppTray(playerSound)
+	playerSound.Play()
 	tray.Run()
 
 }
